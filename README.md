@@ -18,7 +18,7 @@ startup processes. (--index=1)
 
      heroku buildpacks:add --index=1 https://github.com/emartech/heroku-buildpack-cloud-sql-proxy
      
-Add the GCP JSON credentials as `GSP_CREDENTIALS` env variable to you app.
+Add the GCP JSON credentials as `GSP_CREDENTIALS|GOOGLE_CREDENTIALS` env variable to you app.
 
 Set the instance the proxy should connect to with the `GSP_INSTANCES` env 
 variable. Format: `<instance connection name>=tcp:<local port>`. You can get the
